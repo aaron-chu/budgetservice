@@ -30,12 +30,16 @@ public class BudgetService {
     }
 
     private boolean isSameYearMonth(Budget budget, LocalDate date) {
-        LocalDate budgetLocalDate = LocalDate.parse(budget.getYearMonth() + "01", dateTimeFormatter);
+        LocalDate budgetLocalDate = convertBudgetYearMonthToLocalDate(budget);
         return budgetLocalDate.getYear() == date.getYear() && budgetLocalDate.getMonth() == date.getMonth();
     }
 
     private double getBudgetPerDay(Budget budget) {
-        LocalDate budgetLocalDate = LocalDate.parse(budget.getYearMonth() + "01", dateTimeFormatter);
+        LocalDate budgetLocalDate = convertBudgetYearMonthToLocalDate(budget);
         return Math.round(budget.getAmount() * 1.0 / budgetLocalDate.lengthOfMonth() * 100) / 100.0;
+    }
+
+    private LocalDate convertBudgetYearMonthToLocalDate(Budget budget) {
+        return LocalDate.parse(budget.getYearMonth() + "01", dateTimeFormatter);
     }
 }
