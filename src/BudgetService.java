@@ -34,10 +34,6 @@ public class BudgetService {
         return budgetLocalDate.getYear() == date.getYear() && budgetLocalDate.getMonth() == date.getMonth();
     }
 
-    private boolean isSameYearMonth(LocalDate startDate, LocalDate endDate) {
-        return startDate.getYear() == endDate.getYear() && startDate.getMonth() == endDate.getMonth();
-    }
-
     private double getBudgetPerDay(Budget budget) {
         LocalDate budgetLocalDate = LocalDate.parse(budget.getYearMonth() + "01", dateTimeFormatter);
         return Math.round(budget.getAmount() * 1.0 / budgetLocalDate.lengthOfMonth() * 100) / 100.0;
