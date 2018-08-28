@@ -64,6 +64,25 @@ public class BudgetServiceTest {
         assertEquals(130, budgetService.queryBudget(startDate, endDate));
     }
 
+    @Test
+    public void across_months() {
+        givenBudgets(
+                new Budget() {{
+                    setYearMonth("201807");
+                    setAmount(620);
+                }},
+                new Budget() {{
+                    setYearMonth("201808");
+                    setAmount(310);
+                }}
+        );
+
+        LocalDate startDate = LocalDate.parse("2018-07-31");
+        LocalDate endDate = LocalDate.parse("2018-08-01");
+
+        assertEquals(30, budgetService.queryBudget(startDate, endDate));
+    }
+
     private void givenBudgets(Budget... budgets) {
         stubRepo.setAll(Arrays.asList(budgets));
     }

@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77bf7322-7ce9-47e6-af88-3af1171b3734" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Budget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Budget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BudgetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BudgetService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BudgetServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BudgetServiceTest.java" afterDir="false" />
     </list>
@@ -37,12 +34,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1349" />
+          <entry key="java" value="1659" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1349" />
+          <entry key="JAVA" value="1659" />
         </counts>
       </usages-collector>
     </session>
@@ -65,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BudgetService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="414">
+              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#121#122#0" expanded="true" />
@@ -79,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BudgetServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+            <state relative-caret-position="646">
+              <caret line="82" column="45" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#271#272#0" expanded="true" />
@@ -181,7 +178,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535445525358" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535446990331" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -263,29 +260,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535441238366</updated>
-      <workItem from="1535441240002" duration="4245000" />
+      <workItem from="1535441240002" duration="5718000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BudgetServiceTest - 2018.08.28 at 16h 19m 26s.xml">
-      <configuration name="BudgetServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BudgetServiceTest - 2018.08.28 at 16h 21m 02s.xml">
-      <configuration name="BudgetServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BudgetServiceTest - 2018.08.28 at 16h 21m 18s.xml">
-      <configuration name="BudgetServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BudgetServiceTest - 2018.08.28 at 16h 22m 43s.xml">
-      <configuration name="BudgetServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BudgetServiceTest - 2018.08.28 at 16h 23m 44s.xml">
-      <configuration name="BudgetServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BudgetServiceTest - 2018.08.28 at 16h 24m 28s.xml">
-      <configuration name="BudgetServiceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BudgetServiceTest - 2018.08.28 at 16h 24m 48s.xml">
       <configuration name="BudgetServiceTest" configurationId="JUnit" />
     </history-entry>
@@ -298,9 +277,27 @@
     <history-entry file="BudgetServiceTest - 2018.08.28 at 16h 28m 32s.xml">
       <configuration name="BudgetServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BudgetServiceTest - 2018.08.28 at 16h 38m 25s.xml">
+      <configuration name="BudgetServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BudgetServiceTest - 2018.08.28 at 16h 38m 47s.xml">
+      <configuration name="BudgetServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BudgetServiceTest - 2018.08.28 at 16h 41m 45s.xml">
+      <configuration name="BudgetServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BudgetServiceTest - 2018.08.28 at 16h 42m 22s.xml">
+      <configuration name="BudgetServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BudgetServiceTest - 2018.08.28 at 16h 43m 19s.xml">
+      <configuration name="BudgetServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BudgetServiceTest - 2018.08.28 at 16h 43m 49s.xml">
+      <configuration name="BudgetServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4245000" />
+    <option name="totallyTimeSpent" value="5718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1624" height="1027" extended-state="6" />
@@ -460,8 +457,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BudgetServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        <state relative-caret-position="646">
+          <caret line="82" column="45" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#271#272#0" expanded="true" />
@@ -476,8 +473,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BudgetService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="414">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#121#122#0" expanded="true" />
